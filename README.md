@@ -4,6 +4,8 @@
 
 **Inventario y reinstalación portable de aplicaciones Linux, sin depender del entorno de escritorio.**
 
+**Repositorios:** [GitHub](https://github.com/BENDER35/autoapp-mirror) · [GitLab (mirror)](https://gitlab.com/BENDER_5000/autoapp-mirror)
+
 `autoapp-mirror` inspecciona un equipo Linux, descubre qué aplicaciones tiene instaladas
 (paquetes nativos, Flatpak, Snap y scripts de usuario), mide el espacio real de las
 particiones y genera **planes de instalación reproducibles para varias distros**
