@@ -11,6 +11,7 @@ mirror_to_github:
     - master
   variables:
     GIT_STRATEGY: fetch
+    GIT_DEPTH: "0"
   script:
     - apk add --no-cache git
     - git config user.name "autoapp-mirror bot"
@@ -21,8 +22,11 @@ mirror_to_github:
       TARGET="https://${GH_TOKEN}@github.com/${GITHUB_USER}/autoapp-mirror.git"
       git remote remove github-mirror 2>/dev/null || true
       git remote add github-mirror "$TARGET"
-      git fetch --unshallow 2>/dev/null || git fetch --all
-      git push --force github-mirror 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
+      # Asegurar que el HEAD local es el commit mas reciente de GitLab.
+      git fetch --all --tags --force
+      git reset --hard "origin/${CI_DEFAULT_BRANCH:-main}"
+      git push --force github-mirror "HEAD:refs/heads/${CI_DEFAULT_BRANCH:-main}"
+      git push --force github-mirror 'refs/tags/*:refs/tags/*' || true
       echo "Mirror GitLab -> GitHub completado."
 
 # ZIP de release dentro del pipeline de GitLab.
