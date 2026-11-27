@@ -1,0 +1,15 @@
+autoapp 1.0.0 - Informe de inventario
+========================================
+Equipo      : Ubuntu 26.04.1 LTS
+ID / ID_LIKE: ubuntu / debian
+Escritorio  : XFCE (solo informativo)
+Gestor      : apt
+Espacio     : 292.71 GiB libres en ./autoapp-mirror/inventory
+Paquetes nativos: 521
+Flatpaks         : 54
+Snaps            : 25
+Scripts de usuario: 40
+
+IMPORTANTE: Snaps, AppImages y paquetes con licenses/repo privado NO son
+portables entre distros. Se inventarían pero no se traducen automáticamente.
+Consulta docs/es/GUIA.md, docs/en/GUIDE.md y docs/ast/GUIA.md.

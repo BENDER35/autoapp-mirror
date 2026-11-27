@@ -1,0 +1,35 @@
+name: Mirror GitHub -> GitLab
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (historial completo)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Git
+        run: |
+          git config user.name "autoapp-mirror bot"
+          git config user.email "bot@users.noreply.github.com"
+
+      - name: Push a GitLab (espejo)
+        env:
+          GITLAB_URL: ${{ vars.GITLAB_URL || 'https://gitlab.com' }}
+          GITLAB_GROUP: ${{ vars.GITLAB_GROUP }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          set -euo pipefail
+          : "${GITLAB_GROUP:?Falta la variable GITLAB_GROUP}"
+          : "${GITLAB_TOKEN:?Falta el secret GITLAB_TOKEN}"
+          TARGET="https://oauth2:${GITLAB_TOKEN}@${GITLAB_URL#https://}/${GITLAB_GROUP}/autoapp-mirror.git"
+          git remote remove gitlab-mirror 2>/dev/null || true
+          git remote add gitlab-mirror "$TARGET"
+          git push --mirror gitlab-mirror
+          echo "Mirror GitHub -> GitLab completado."

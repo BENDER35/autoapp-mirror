@@ -1,0 +1,230 @@
+clave	apt	dnf	pacman	apk	zypper	flatpak	notas
+7zip	7zip	p7zip p7zip-plugins	p7zip	p7zip	p7zip	-	Compresor; en Fedora se divide en paquetes.
+abiword	abiword	abiword	abiword	abiword	abiword	-	Procesador de texto ligero.
+adb	adb	android-tools	android-tools	android-tools	android-tools	-	Android Debug Bridge.
+aircrack-ng	aircrack-ng	aircrack-ng	aircrack-ng	aircrack-ng	aircrack-ng	-	Auditoría Wi-Fi.
+alien	alien	rpm-build	-	-	alien	-	Conversión deb<->rpm; no portable directo.
+amule	amule	amule	amule	amule	amule	-	Cliente eD2k/kad.
+anydesk	anydesk	anydesk	anydesk	anydesk	anydesk	-	Requiere repo del proveedor en todas las distros.
+apt-transport-https	apt-transport-https	-	-	-	-	-	Específico de APT/Debian.
+apt-utils	apt-utils	-	-	-	-	-	Específico de APT/Debian.
+aria2	aria2	aria2	aria2	aria2	aria2	-	Descargador multi-protocolo.
+arj	arj	arj	arj	arj	arj	-	Compresor ARJ.
+autoconf	autoconf	autoconf	autoconf	autoconf	autoconf	-	Herramienta de build.
+automake	automake	automake	automake	automake	automake	-	Herramienta de build.
+bash	bash	bash	bash	bash	bash	-	Shell por defecto.
+bc	bc	bc	bc	bc	bc	-	Calculadora arbitraria.
+bleachbit	bleachbit	bleachbit	bleachbit	bleachbit	bleachbit	-	Limpieza del sistema.
+brasero	brasero	brasero	brasero	brasero	brasero	-	Grabación de discos (GTK).
+brave-browser	brave-browser	brave-browser	brave-browser	brave-browser	brave-browser	-	Navegador; requiere repo oficial.
+btop	btop	btop	btop	btop	btop	-	Monitor de recursos.
+btrfs-progs	btrfs-progs	btrfs-progs	btrfs-progs	btrfs-progs	btrfs-progs	-	Utilidades Btrfs.
+build-essential	build-essential	gcc gcc-c++ make	base-devel	build-base gcc musl-dev	patterns-devel-base-devel_basis	-	Metapaquete; equivalente por distro.
+bzip2	bzip2	bzip2	bzip2	bzip2	bzip2	-	Compresor bzip2.
+ca-certificates	ca-certificates	ca-certificates	ca-certificates	ca-certificates ca-certificates-mozilla	ca-certificates	-	Certificados CA.
+calibre	calibre	calibre	calibre	calibre	calibre	-	Gestor de ebooks.
+ccd2iso	ccd2iso	ccd2iso	ccd2iso	ccd2iso	ccd2iso	-	Conversión de imágenes de disco.
+cdrdao	cdrdao	cdrdao	cdrdao	cdrdao	cdrdao	-	Grabación DAO.
+clang-19	clang-19	clang19	clang	clang	clang19	-	Compilador Clang; versión variable.
+cmake	cmake	cmake	cmake	cmake	cmake	-	Sistema de build.
+cloudflare-warp	cloudflare-warp	cloudflare-warp	cloudflare-warp	cloudflare-warp	cloudflare-warp	-	VPN; repo del proveedor.
+configuradorfnmt	configuradorfnmt	-	-	-	-	-	Herramienta española FNMT; solo deb.
+coreutils	coreutils	coreutils	coreutils	coreutils	coreutils	-	Utilidades básicas.
+cpio	cpio	cpio	cpio	cpio	cpio	-	Archivador cpio.
+cpu-x	cpu-x	cpu-x	cpu-x	cpu-x	cpu-x	-	Información de CPU.
+cubic	cubic	-	-	-	-	-	Personalizador de ISO Ubuntu; no portable.
+curl	curl	curl	curl	curl	curl	-	Cliente HTTP.
+dash	dash	-	-	dash	-	-	Shell /bin/sh en Debian.
+dbus	dbus	dbus	dbus	dbus	dbus	-	Bus de mensajes.
+debootstrap	debootstrap	-	-	-	-	-	Específico de Debian.
+deemix-gui	deemix-gui	-	-	-	-	-	Descarga de música; requiere repo privado.
+default-jdk-headless	default-jdk-headless	java-21-openjdk-headless	jdk-openjdk	openjdk21-jdk-headless	java-21-openjdk-headless	-	JDK; versión depende de distro.
+dialog	dialog	dialog	dialog	dialog	dialog	-	Diálogos de terminal.
+diffutils	diffutils	diffutils	diffutils	diffutils	diffutils	-	diff y herramientas.
+discord	discord	discord	discord	discord	discord	-	Requiere repo del proveedor.
+dkms	dkms	dkms	dkms	dkms	dkms	-	Módulos del kernel dinámicos.
+docker-ce	docker-ce	docker-ce	docker	docker	docker-ce	-	Docker Engine; repos por distro.
+docker-compose-plugin	docker-compose-plugin	docker-compose-plugin	docker-compose	docker-compose	docker-compose-plugin	-	Plugin Compose.
+doomseeker	doomseeker	doomseeker	doomseeker	doomseeker	doomseeker	-	Lanzador de Doom.
+dosbox	dosbox	dosbox	dosbox	dosbox	dosbox	com.dosbox_x.DOSBox-X	Emulador DOS; alternativa Flatpak.
+dosfstools	dosfstools	dosfstools	dosfstools	dosfstools	dosfstools	-	Utilidades FAT.
+dotnet-sdk-10.0	dotnet-sdk-10.0	dotnet-sdk-10.0	dotnet-sdk	dotnet-sdk-10.0	dotnet-sdk-10.0	-	SDK .NET; requiere repo Microsoft.
+droidcam-client	droidcam-client	-	-	-	-	-	Webcam por móvil; disponibilidad variable.
+dwarves	dwarves	dwarves	dwarves	dwarves	dwarves	-	Herramientas DWARF.
+e2fsprogs	e2fsprogs	e2fsprogs	e2fsprogs	e2fsprogs	e2fsprogs	-	Utilidades ext2/3/4.
+efibootmgr	efibootmgr	efibootmgr	efibootmgr	efibootmgr	efibootmgr	-	Gestión EFI.
+element-desktop	element-desktop	element-desktop	element-desktop	element-desktop	element-desktop	-	Cliente Matrix; repo del proveedor.
+elinks	elinks	elinks	elinks	elinks	elinks	-	Navegador de texto.
+extrepo	extrepo	-	-	-	-	-	Herramienta Debian para repos externos.
+fail2ban	fail2ban	fail2ban	fail2ban	fail2ban	fail2ban	-	Protección contra fuerza bruta.
+fakeroot	fakeroot	fakeroot	fakeroot	fakeroot	fakeroot	-	Construcción de paquetes.
+fastfetch	fastfetch	fastfetch	fastfetch	fastfetch	fastfetch	-	Info del sistema.
+fdisk	fdisk	util-linux	util-linux	util-linux	util-linux	-	Particionado (util-linux).
+ffmpeg	ffmpeg	ffmpeg	ffmpeg	ffmpeg	ffmpeg	-	Multimedia.
+filezilla	filezilla	filezilla	filezilla	filezilla	filezilla	-	Cliente FTP/SFTP.
+findutils	findutils	findutils	findutils	findutils	findutils	-	find/xargs.
+flashrom	flashrom	flashrom	flashrom	flashrom	flashrom	-	Flash BIOS.
+flatpak	flatpak	flatpak	flatpak	flatpak	flatpak	-	Gestor de apps sandbox.
+flex	flex	flex	flex	flex	flex	-	Generador de analizadores.
+fonts-liberation	fonts-liberation	liberation-fonts	ttf-liberation	font-liberation	liberation-fonts	-	Fuentes.
+g++	g++	gcc-c++	g++	g++	gcc-c++	-	Compilador C++.
+gawk	gawk	gawk	gawk	gawk	gawk	-	AWK.
+gcc	gcc	gcc	gcc	gcc	gcc	-	Compilador C.
+gh	gh	gh	gh	gh	gh	-	CLI de GitHub.
+gimp-help-es	gimp-help-es	-	-	-	-	-	Ayuda en español; no siempre empaquetada.
+git	git	git	git	git	git	-	Control de versiones.
+glab	glab	glab	glab	glab	glab	-	CLI de GitLab.
+gnat	gnat	gcc-gnat	gcc-ada	gcc-gnat	gcc-gnat	-	Compilador Ada.
+gnumeric	gnumeric	gnumeric	gnumeric	gnumeric	gnumeric	-	Hoja de cálculo.
+gnupg	gnupg	gnupg2	gnupg	gnupg	gnupg2	-	Firmas y cifrado.
+golang-go	golang-go	golang	go	golang	go	-	Lenguaje Go.
+google-chrome-stable	google-chrome-stable	google-chrome-stable	google-chrome-stable	google-chrome-stable	google-chrome-stable	-	Navegador; repo de Google.
+google-earth-pro-stable	google-earth-pro-stable	-	-	-	-	-	Visitante Pro; solo deb oficial.
+gparted	gparted	gparted	gparted	gparted	gparted	-	Editor de particiones.
+grim	grim	grim	grim	grim	grim	-	Capturas en Wayland.
+grub-common	grub-common	grub2-common	grub	grub	grub2	-	Bootloader; manejo delicado.
+gscan2pdf	gscan2pdf	gscan2pdf	gscan2pdf	gscan2pdf	gscan2pdf	-	Escaneo a PDF.
+hardinfo	hardinfo	hardinfo	hardinfo	hardinfo	hardinfo	-	Info del hardware.
+hostname	hostname	hostname	hostname	hostname	hostname	-	Nombre de host.
+htop	htop	htop	htop	htop	htop	-	Monitor de procesos.
+httrack	httrack	httrack	httrack	httrack	httrack	-	Copia de sitios web.
+hunspell-es	hunspell-es	hunspell-es	hunspell-es	hunspell-es	hunspell-es	-	Diccionario español.
+httrack	httrack	httrack	httrack	httrack	httrack	-	Duplicado controlado.
+hw-probe	hw-probe	-	-	-	-	-	Herramienta Linux-hardware; disponibilidad variable.
+inotify-tools	inotify-tools	inotify-tools	inotify-tools	inotify-tools	inotify-tools	-	Monitorización de archivos.
+intltool	intltool	intltool	intltool	intltool	intltool	-	Internacionalización.
+java-common	java-common	-	-	-	-	-	Metapaquete Debian.
+jq	jq	jq	jq	jq	jq	-	Procesador JSON.
+k3b	k3b	k3b	k3b	k3b	k3b	-	Grabación de discos (KDE).
+kazam	kazam	-	-	-	-	-	Grabador de pantalla; alternativa Flatpak.
+kdeconnect	kdeconnect	kdeconnect	kdeconnect	kdeconnect	kdeconnect	-	Integración móvil KDE.
+keepassxc	keepassxc	keepassxc	keepassxc	keepassxc	keepassxc	-	Gestor de contraseñas.
+kpartx	kpartx	kpartx	kpartx	kpartx	kpartx	-	Mapas de particiones.
+labwc	labwc	labwc	labwc	labwc	labwc	-	Compositor Wayland.
+language-pack-es	language-pack-es	langpacks-es	-	-	language-pack-es	-	Paquetes de idioma; nombres por distro.
+lhasa	lhasa	lhasa	lhasa	lhasa	lhasa	-	Compresión LHA.
+libasound2-dev	libasound2-dev	alsa-lib-devel	alsa-lib	alsa-lib-dev	alsa-lib-devel	-	Headers ALSA.
+libc6	libc6	glibc	glibc	musl	glibc	-	Biblioteca C; NO reemplazar a mano.
+libreoffice-calc	libreoffice-calc	libreoffice-calc	libreoffice-calc	libreoffice-calc	libreoffice-calc	-	Hoja de cálculo.
+libreoffice-writer	libreoffice-writer	libreoffice-writer	libreoffice-writer	libreoffice-writer	libreoffice-writer	-	Procesador de texto.
+lsof	lsof	lsof	lsof	lsof	lsof	-	Lista de archivos abiertos.
+lvm2	lvm2	lvm2	lvm2	lvm2	lvm2	-	Gestor de volúmenes lógicos.
+mtools	mtools	mtools	mtools	mtools	mtools	-	Herramientas DOS.
+nano	nano	nano	nano	nano	nano	-	Editor de terminal.
+ncdu	ncdu	ncdu	ncdu	ncdu	ncdu	-	Uso de disco por directorio.
+neovim	neovim	neovim	neovim	neovim	neovim	-	Editor Vim moderno.
+network-manager	network-manager	NetworkManager	networkmanager	networkmanager	NetworkManager	-	Gestión de red.
+nfs-common	nfs-common	nfs-utils	nfs-utils	nfs-utils	nfs-utils	-	Cliente NFS.
+ninja-build	ninja-build	ninja	ninja	ninja	ninja	-	Sistema de build.
+nmap	nmap	nmap	nmap	nmap	nmap	-	Escaneo de red.
+nvidia-driver-560	nvidia-driver-560	akmod-nvidia	nvidia-dkms	-	nvidia-glG6	-	Controladores gráficos; MUY dependiente del kernel.
+openjdk	openjdk	java-openjdk	jdk-openjdk	openjdk-jdk	java-openjdk	-	Java; versión variable.
+openssh-client	openssh-client	openssh-clients	openssh	openssh-client	openssh-clients	-	Cliente SSH.
+openssl	openssl	openssl	openssl	openssl	openssl	-	Criptografía.
+openvpn	openvpn	openvpn	openvpn	openvpn	openvpn	-	Cliente VPN.
+p7zip-full	p7zip-full	p7zip p7zip-plugins	p7zip	p7zip	p7zip	-	Compresor 7z.
+pandoc	pandoc	pandoc	pandoc	pandoc	pandoc	-	Conversión de documentos.
+pciutils	pciutils	pciutils	pciutils	pciutils	pciutils	-	lspci.
+peek	peek	peek	peek	peek	peek	-	Grabador GIF; disponibilidad variable.
+pigz	pigz	pigz	pigz	pigz	pigz	-	gzip paralelo.
+pkg-config	pkg-config	pkgconf	pkgconf	pkgconf	pkgconf	-	Metadatos de librerías.
+podman	podman	podman	podman	podman	podman	-	Contenedores sin daemon.
+postgresql	postgresql	postgresql-server	postgresql	postgresql	postgresql-server	-	Base de datos; requiere initdb.
+powertop	powertop	powertop	powertop	powertop	powertop	-	Análisis de consumo.
+python3	python3	python3	python	python3	python3	-	Intérprete Python.
+python3-pip	python3-pip	python3-pip	python-pip	py3-pip	python3-pip	-	Gestor de paquetes Python.
+qemu-utils	qemu-utils	qemu-img	qemu-img	qemu-img	qemu-img	-	Imágenes de máquinas virtuales.
+rclone	rclone	rclone	rclone	rclone	rclone	-	Sincronización de almacenamiento.
+rsync	rsync	rsync	rsync	rsync	rsync	-	Sincronización incremental.
+rpm	rpm	rpm	-	-	rpm	-	Gestor RPM; no existe en Arch/Alpine.
+rsyslog	rsyslog	rsyslog	rsyslog	rsyslog	rsyslog	-	Servicio de logs.
+rtorrent	rtorrent	rtorrent	rtorrent	rtorrent	rtorrent	-	Cliente BitTorrent.
+samba	samba	samba	samba	samba	samba	-	Recursos compartidos.
+screen	screen	screen	screen	screen	screen	-	Multiplexor de terminal.
+smartmontools	smartmontools	smartmontools	smartmontools	smartmontools	smartmontools	-	SMART de discos.
+snapd	snapd	snapd	snapd	snapd	snapd	-	Compatible solo con systemd; no en Alpine.
+sshfs	sshfs	sshfs	sshfs	sshfs	sshfs	-	Montar directorios por SSH.
+stm32-tools	gcc-arm-none-eabi	arm-none-eabi-gcc	arm-none-eabi-gcc	arm-none-eabi-gcc	arm-none-eabi-gcc	-	Toolchain ARM embebido.
+strace	strace	strace	strace	strace	strace	-	Traza de syscalls.
+sudo	sudo	sudo	sudo	sudo	sudo	-	Elevación de privilegios.
+syncthing	syncthing	syncthing	syncthing	syncthing	syncthing	-	Sincronización P2P.
+sysstat	sysstat	sysstat	sysstat	sysstat	sysstat	-	Estadísticas del sistema.
+systemd	systemd	systemd	systemd	-	systemd	-	Init; NO portable a Alpine (OpenRC).
+tar	tar	tar	tar	tar	tar	-	Archivador.
+telegram-desktop	telegram-desktop	telegram-desktop	telegram-desktop	telegram-desktop	telegram-desktop	-	Cliente Telegram; repo del proveedor.
+texlive-latex-extra	texlive-latex-extra	texlive-latex TeX-latexextra	texlive-latexextra	texlive-latexextra	texlive-latexextra	-	LaTeX; conjuntos enormes.
+thunderbird	thunderbird	thunderbird	thunderbird	thunderbird	thunderbird	-	Cliente de correo.
+tmux	tmux	tmux	tmux	tmux	tmux	-	Multiplexor de terminal.
+torrent-file-editor	torrent-file-editor	-	-	-	-	-	Herramienta torrent; disponibilidad variable.
+tree	tree	tree	tree	tree	tree	-	Árbol de directorios.
+udisks2	udisks2	udisks2	udisks2	udisks2	udisks2	-	Gestión de almacenamiento.
+unzip	unzip	unzip	unzip	unzip	unzip	-	Descompresión ZIP.
+usbutils	usbutils	usbutils	usbutils	usbutils	usbutils	-	lsusb.
+vim	vim	vim	vim	vim	vim	-	Editor.
+vlc	vlc	vlc	vlc	vlc	vlc	-	Reproductor multimedia.
+wget	wget	wget	wget	wget	wget	-	Descargas.
+wireguard	wireguard	wireguard-tools	wireguard-tools	wireguard-tools	wireguard-tools	-	VPN.
+wireless-tools	wireless-tools	wireless-tools	-	-	-	-	Herramientas Wi-Fi antiguas.
+xclip	xclip	xclip	xclip	xclip	xclip	-	Portapapeles en X11.
+xdg-utils	xdg-utils	xdg-utils	xdg-utils	xdg-utils	xdg-utils	-	Integración de escritorio (agrega xdg-open).
+xz-utils	xz-utils	xz	xz	xz	xz	-	Compresión xz.
+yq	yq	yq	yq	yq	yq	-	Procesador YAML.
+zip	zip	zip	zip	zip	zip	-	Compresión ZIP.
+zsh	zsh	zsh	zsh	zsh	zsh	-	Shell Z.
+fcitx5	fcitx5	fcitx5	fcitx5	fcitx5	fcitx5	-	Marco de entrada de texto.
+pipewire	pipewire	pipewire	pipewire	pipewire	pipewire	-	Servidor de audio/vídeo.
+wpctl	pipewire	pipewire	pipewire	pipewire	pipewire	-	Control de PipeWire.
+fp:com.dosbox_x.DOSBox-X	-	-	-	-	-	com.dosbox_x.DOSBox-X	App Flatpak instalada en el equipo de origen.
+fp:com.github.Matoking.protontricks	-	-	-	-	-	com.github.Matoking.protontricks	App Flatpak instalada en el equipo de origen.
+fp:com.github.PintaProject.Pinta	-	-	-	-	-	com.github.PintaProject.Pinta	App Flatpak instalada en el equipo de origen.
+fp:com.github.tchx84.Flatseal	-	-	-	-	-	com.github.tchx84.Flatseal	App Flatpak instalada en el equipo de origen.
+fp:com.github.vkohaupt.vokoscreenNG	-	-	-	-	-	com.github.vkohaupt.vokoscreenNG	App Flatpak instalada en el equipo de origen.
+fp:com.heroicgameslauncher.hgl	-	-	-	-	-	com.heroicgameslauncher.hgl	App Flatpak instalada en el equipo de origen.
+fp:com.rafaelmardojai.Blanket	-	-	-	-	-	com.rafaelmardojai.Blanket	App Flatpak instalada en el equipo de origen.
+fp:com.stremio.Stremio	-	-	-	-	-	com.stremio.Stremio	App Flatpak instalada en el equipo de origen.
+fp:com.usebottles.bottles	-	-	-	-	-	com.usebottles.bottles	App Flatpak instalada en el equipo de origen.
+fp:eu.scarpetta.PDFMixTool	-	-	-	-	-	eu.scarpetta.PDFMixTool	App Flatpak instalada en el equipo de origen.
+fp:im.pidgin.Pidgin	-	-	-	-	-	im.pidgin.Pidgin	App Flatpak instalada en el equipo de origen.
+fp:info.urbanterror.UrbanTerror	-	-	-	-	-	info.urbanterror.UrbanTerror	App Flatpak instalada en el equipo de origen.
+fp:io.github.aandrew_me.ytdn	-	-	-	-	-	io.github.aandrew_me.ytdn	App Flatpak instalada en el equipo de origen.
+fp:io.github.debasish_patra_1987.linuxthemestore	-	-	-	-	-	io.github.debasish_patra_1987.linuxthemestore	App Flatpak instalada en el equipo de origen.
+fp:io.github.fastrizwaan.WineCharm	-	-	-	-	-	io.github.fastrizwaan.WineCharm	App Flatpak instalada en el equipo de origen.
+fp:io.github.fastrizwaan.WineZGUI	-	-	-	-	-	io.github.fastrizwaan.WineZGUI	App Flatpak instalada en el equipo de origen.
+fp:io.github.Faugus.faugus-launcher	-	-	-	-	-	io.github.Faugus.faugus-launcher	App Flatpak instalada en el equipo de origen.
+fp:io.github.flattool.Warehouse	-	-	-	-	-	io.github.flattool.Warehouse	App Flatpak instalada en el equipo de origen.
+fp:io.github.giantpinkrobots.flatsweep	-	-	-	-	-	io.github.giantpinkrobots.flatsweep	App Flatpak instalada en el equipo de origen.
+fp:io.github.intoolswetrust.JSignPdf	-	-	-	-	-	io.github.intoolswetrust.JSignPdf	App Flatpak instalada en el equipo de origen.
+fp:io.github.lavenderdotpet.LibreQuake	-	-	-	-	-	io.github.lavenderdotpet.LibreQuake	App Flatpak instalada en el equipo de origen.
+fp:io.github.vikdevelop.SaveDesktop	-	-	-	-	-	io.github.vikdevelop.SaveDesktop	App Flatpak instalada en el equipo de origen.
+fp:io.gitlab.adhami3310.Impression	-	-	-	-	-	io.gitlab.adhami3310.Impression	App Flatpak instalada en el equipo de origen.
+fp:me.sanchezrodriguez.passes	-	-	-	-	-	me.sanchezrodriguez.passes	App Flatpak instalada en el equipo de origen.
+fp:net._86box._86Box	-	-	-	-	-	net._86box._86Box	App Flatpak instalada en el equipo de origen.
+fp:net.cubers.assault.AssaultCube	-	-	-	-	-	net.cubers.assault.AssaultCube	App Flatpak instalada en el equipo de origen.
+fp:net.davidotek.pupgui2	-	-	-	-	-	net.davidotek.pupgui2	App Flatpak instalada en el equipo de origen.
+fp:net.lutris.Lutris	-	-	-	-	-	net.lutris.Lutris	App Flatpak instalada en el equipo de origen.
+fp:net.waterfox.waterfox	-	-	-	-	-	net.waterfox.waterfox	App Flatpak instalada en el equipo de origen.
+fp:org.alienarena.alienarena	-	-	-	-	-	org.alienarena.alienarena	App Flatpak instalada en el equipo de origen.
+fp:org.audacityteam.Audacity	-	-	-	-	-	org.audacityteam.Audacity	App Flatpak instalada en el equipo de origen.
+fp:org.DolphinEmu.dolphin-emu	-	-	-	-	-	org.DolphinEmu.dolphin-emu	App Flatpak instalada en el equipo de origen.
+fp:org.fedoraproject.MediaWriter	-	-	-	-	-	org.fedoraproject.MediaWriter	App Flatpak instalada en el equipo de origen.
+fp:org.freeciv.qt	-	-	-	-	-	org.freeciv.qt	App Flatpak instalada en el equipo de origen.
+fp:org.gnome.Epiphany	-	-	-	-	-	org.gnome.Epiphany	App Flatpak instalada en el equipo de origen.
+fp:org.gnome.NetworkDisplays	-	-	-	-	-	org.gnome.NetworkDisplays	App Flatpak instalada en el equipo de origen.
+fp:org.gnome.Snapshot	-	-	-	-	-	org.gnome.Snapshot	App Flatpak instalada en el equipo de origen.
+fp:org.gnome.Weather	-	-	-	-	-	org.gnome.Weather	App Flatpak instalada en el equipo de origen.
+fp:org.jdownloader.JDownloader	-	-	-	-	-	org.jdownloader.JDownloader	App Flatpak instalada en el equipo de origen.
+fp:org.kde.kclock	-	-	-	-	-	org.kde.kclock	App Flatpak instalada en el equipo de origen.
+fp:org.kde.kdenlive	-	-	-	-	-	org.kde.kdenlive	App Flatpak instalada en el equipo de origen.
+fp:org.kde.ktorrent	-	-	-	-	-	org.kde.ktorrent	App Flatpak instalada en el equipo de origen.
+fp:org.kde.okular	-	-	-	-	-	org.kde.okular	App Flatpak instalada en el equipo de origen.
+fp:org.libretro.RetroArch	-	-	-	-	-	org.libretro.RetroArch	App Flatpak instalada en el equipo de origen.
+fp:org.nickvision.tubeconverter	-	-	-	-	-	org.nickvision.tubeconverter	App Flatpak instalada en el equipo de origen.
+fp:org.openshot.OpenShot	-	-	-	-	-	org.openshot.OpenShot	App Flatpak instalada en el equipo de origen.
+fp:org.ppsspp.PPSSPP	-	-	-	-	-	org.ppsspp.PPSSPP	App Flatpak instalada en el equipo de origen.
+fp:org.shotcut.Shotcut	-	-	-	-	-	org.shotcut.Shotcut	App Flatpak instalada en el equipo de origen.
+fp:org.upscayl.Upscayl	-	-	-	-	-	org.upscayl.Upscayl	App Flatpak instalada en el equipo de origen.
+fp:org.xonotic.Xonotic	-	-	-	-	-	org.xonotic.Xonotic	App Flatpak instalada en el equipo de origen.
+fp:org.yamagi.YamagiQ2	-	-	-	-	-	org.yamagi.YamagiQ2	App Flatpak instalada en el equipo de origen.
+fp:rs.ruffle.Ruffle	-	-	-	-	-	rs.ruffle.Ruffle	App Flatpak instalada en el equipo de origen.
+fp:su.xash.Engine.Compat.i386	-	-	-	-	-	su.xash.Engine.Compat.i386	App Flatpak instalada en el equipo de origen.
+fp:tv.kodi.Kodi	-	-	-	-	-	tv.kodi.Kodi	App Flatpak instalada en el equipo de origen.
