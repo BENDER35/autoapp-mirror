@@ -31,5 +31,6 @@ jobs:
           TARGET="https://oauth2:${GITLAB_TOKEN}@${GITLAB_URL#https://}/${GITLAB_GROUP}/autoapp-mirror.git"
           git remote remove gitlab-mirror 2>/dev/null || true
           git remote add gitlab-mirror "$TARGET"
-          git push --mirror gitlab-mirror
+          # Push de ramas y tags (no refs/remotes/*: GitLab los rechaza).
+          git push --force gitlab-mirror 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
           echo "Mirror GitHub -> GitLab completado."

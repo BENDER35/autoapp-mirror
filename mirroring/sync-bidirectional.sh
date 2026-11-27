@@ -34,7 +34,7 @@ log "GitHub -> GitLab..."
 GIT_CONFIG_COUNT=2 \
 GIT_CONFIG_KEY_0=credential.helper GIT_CONFIG_VALUE_0="store --file=$WORK/gl.creds" \
 GIT_CONFIG_KEY_1=credential.helper GIT_CONFIG_VALUE_1="store --file=$WORK/gl.creds" \
-  git push --mirror gitlab
+  git push --force gitlab 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
 
 log "GitLab -> GitHub (traer cambios que pudiera haber en GitLab)..."
 GIT_CONFIG_COUNT=2 \

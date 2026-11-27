@@ -22,7 +22,7 @@ mirror_to_github:
       git remote remove github-mirror 2>/dev/null || true
       git remote add github-mirror "$TARGET"
       git fetch --unshallow 2>/dev/null || git fetch --all
-      git push --mirror github-mirror
+      git push --force github-mirror 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
       echo "Mirror GitLab -> GitHub completado."
 
 # ZIP de release dentro del pipeline de GitLab.
