@@ -11,7 +11,9 @@ GL_URL="${2:?Falta la URL de GitLab}"
 : "${GITLAB_TOKEN:?Falta GITLAB_TOKEN}"
 : "${GITHUB_TOKEN:?Falta GITHUB_TOKEN}"
 
-WORK="$(mktemp -d /tmp/opencode/autoapp-mirror.XXXXXX)"
+TMPROOT="${TMPDIR:-/tmp}/autoapp-mirror-sync"
+mkdir -p "$TMPROOT"
+WORK="$(mktemp -d "$TMPROOT/mirror.XXXXXX")"
 trap 'rm -rf "$WORK"' EXIT
 
 log() { printf '[sync] %s\n' "$*" >&2; }

@@ -9,7 +9,9 @@ GH_URL="${1:?Falta la URL de GitHub}"
 GL_URL="${2:?Falta la URL de GitLab}"
 BRANCH="${3:-main}"
 
-WORK="$(mktemp -d /tmp/opencode/autoapp-verify.XXXXXX)"
+TMPROOT="${TMPDIR:-/tmp}/autoapp-mirror-verify"
+mkdir -p "$TMPROOT"
+WORK="$(mktemp -d "$TMPROOT/verify.XXXXXX")"
 trap 'rm -rf "$WORK"' EXIT
 
 log() { printf '[verify] %s\n' "$*" >&2; }

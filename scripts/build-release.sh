@@ -7,7 +7,9 @@ VERSION="${1:-1.0.0}"
 ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST="$ROOT/dist"
 NAME="autoapp-mirror-${VERSION}"
-STAGE="$(mktemp -d /tmp/opencode/${NAME}.XXXXXX)"
+TMPROOT="${TMPDIR:-/tmp}/autoapp-mirror-build"
+mkdir -p "$TMPROOT"
+STAGE="$(mktemp -d "$TMPROOT/${NAME}.XXXXXX")"
 trap 'rm -rf "$STAGE"' EXIT
 
 log() { printf '[release] %s\n' "$*" >&2; }
